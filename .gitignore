@@ -1,0 +1,86 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Audio / speech data
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+
+# Large datasets
+*.parquet
+*.arrow
+*.feather
+
+# Feature / tensor caches
+feature_cache/
+*_cache/
+*.npy
+*.npz
+
+# Hugging Face / model caches
+.cache/
+huggingface/
+hf_cache/
+
+# Experiment outputs
+checkpoints/
+runs/
+wandb/
+tensorboard/
+
+# Python generated files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Local generated diagnostics
+__pycache__/
+
+# Generated experiment results
+*_predictions.csv
+*_metrics.csv
+*_summary.csv
+*_results.csv
+*_history.json
+
+# Dataset / experiment reports
+dataset_audit_report.txt
+repo_file_inventory.txt
+representation_crash.txt
+
+# Local generated datasets
+combined_dataset/
+benchmark/
+manipuri_1k_project/
+manipuri_10k/
+
+# Local research workspace
+ASR/
