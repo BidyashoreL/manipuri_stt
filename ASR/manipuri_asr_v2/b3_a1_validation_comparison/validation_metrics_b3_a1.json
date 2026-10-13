@@ -1,0 +1,70 @@
+{
+  "evaluation": "validation_only",
+  "validation_rows": 864,
+  "normalization": "NFC + whitespace collapse",
+  "decoder": "pyctcdecode unigram decoder",
+  "beam_width": 500,
+  "official_test_accessed": false,
+  "results": [
+    {
+      "model": "B3_E11",
+      "n": 864,
+      "greedy": {
+        "cer": 0.17006727286168405,
+        "wer": 0.6229410891823712,
+        "char_errors": 13803,
+        "char_total": 81162,
+        "word_errors": 8396,
+        "word_total": 13478
+      },
+      "beam500": {
+        "cer": 0.16263768758778738,
+        "wer": 0.6085472622050749,
+        "char_errors": 13200,
+        "char_total": 81162,
+        "word_errors": 8202,
+        "word_total": 13478
+      }
+    },
+    {
+      "model": "A1_E4",
+      "n": 864,
+      "greedy": {
+        "cer": 0.16706093984869766,
+        "wer": 0.6173764653509423,
+        "char_errors": 13559,
+        "char_total": 81162,
+        "word_errors": 8321,
+        "word_total": 13478
+      },
+      "beam500": {
+        "cer": 0.15869495576747739,
+        "wer": 0.5972696245733788,
+        "char_errors": 12880,
+        "char_total": 81162,
+        "word_errors": 8050,
+        "word_total": 13478
+      }
+    },
+    {
+      "model": "A1_E5",
+      "n": 864,
+      "greedy": {
+        "cer": 0.16698701362706686,
+        "wer": 0.611440866597418,
+        "char_errors": 13553,
+        "char_total": 81162,
+        "word_errors": 8241,
+        "word_total": 13478
+      },
+      "beam500": {
+        "cer": 0.15913851309726226,
+        "wer": 0.5909630508977594,
+        "char_errors": 12916,
+        "char_total": 81162,
+        "word_errors": 7965,
+        "word_total": 13478
+      }
+    }
+  ]
+}

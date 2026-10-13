@@ -1,0 +1,109 @@
+{
+  "status": "COMPLETE",
+  "timestamp": "2026-09-14T09:44:43.214923",
+  "model": {
+    "name": "facebook/w2v-bert-2.0",
+    "encoder": "Wav2Vec2BertModel",
+    "feature_extractor": "AutoFeatureExtractor",
+    "encoder_dtype": "torch.bfloat16",
+    "disk_dtype": "float16",
+    "output_hidden_size": 1024
+  },
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 2050",
+    "device": "cuda",
+    "torch_version": "2.14.0+cu126",
+    "initial_memory": {
+      "allocated_mb": 0.0,
+      "reserved_mb": 0.0,
+      "peak_allocated_mb": 0.0,
+      "peak_reserved_mb": 0.0,
+      "free_mb": 3303.4000005722046,
+      "total_mb": 4095.5
+    },
+    "after_encoder_load": {
+      "allocated_mb": 1107.2119140625,
+      "reserved_mb": 1124.0,
+      "peak_allocated_mb": 1107.2119140625,
+      "peak_reserved_mb": 1124.0,
+      "free_mb": 2179.4000005722046,
+      "total_mb": 4095.5
+    },
+    "final_memory": {
+      "allocated_mb": 1115.3369140625,
+      "reserved_mb": 1124.0,
+      "peak_allocated_mb": 1132.84765625,
+      "peak_reserved_mb": 1150.0,
+      "free_mb": 2151.4000005722046,
+      "total_mb": 4095.5
+    }
+  },
+  "dataset": {
+    "train": 10199,
+    "val": 1207,
+    "test": 601,
+    "expected_train": 10199,
+    "expected_val": 1207,
+    "expected_test": 601
+  },
+  "protection": {
+    "csv_modified": false,
+    "samples_removed": false,
+    "test_processed": false,
+    "test_excluded": true
+  },
+  "cache": {
+    "directory": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\v2\\cache\\features",
+    "fingerprint": "ae2243975120c0e7c1ece6d11557de23788f0a4143fab3da2c5feeb5fab5292d",
+    "disk_size_mb": 4677.157601356506,
+    "statistics": {
+      "ram_hits": 0,
+      "ram_misses": 0,
+      "disk_hits": 22812,
+      "disk_misses": 11401,
+      "encoder_computations": 0,
+      "writes": 11401,
+      "invalid_entries": 0,
+      "evictions": 0,
+      "ram_items": 0,
+      "ram_capacity": 2,
+      "disk_items": 11406
+    }
+  },
+  "precomputation": {
+    "expected_features": 11406,
+    "valid_features": 11406,
+    "invalid_features": 0,
+    "new_features_written": 11401,
+    "cache_hits": 5,
+    "failures": 0,
+    "total_encoder_seconds": 2542.0710081980797,
+    "total_wall_seconds": 28781.548489599983
+  },
+  "validation": {
+    "train": {
+      "dataset": "train",
+      "total": 10199,
+      "valid": 10199,
+      "invalid": 0,
+      "complete": true
+    },
+    "val": {
+      "dataset": "val",
+      "total": 1207,
+      "valid": 1207,
+      "invalid": 0,
+      "complete": true
+    },
+    "test": {
+      "dataset": "test",
+      "total": 601,
+      "processed": 0,
+      "excluded": true,
+      "reason": "Test set is reserved exclusively for final evaluation."
+    },
+    "all_train_valid": true,
+    "all_val_valid": true,
+    "overall_complete": true
+  }
+}

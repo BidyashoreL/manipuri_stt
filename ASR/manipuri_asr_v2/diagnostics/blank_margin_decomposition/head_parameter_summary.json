@@ -1,0 +1,32 @@
+{
+  "blank_id": 0,
+  "vocab_size": 60,
+  "head_input_dimension": 1024,
+  "blank_bias": 0.08803174644708633,
+  "mean_nonblank_bias": -0.019923971965909004,
+  "blank_weight_norm": 0.8647465705871582,
+  "mean_nonblank_weight_norm": 1.3235876560211182,
+  "severe_indices": [
+    187,
+    349,
+    491,
+    568,
+    803,
+    814
+  ],
+  "normal_comparison_indices": [
+    16,
+    26,
+    59,
+    76,
+    81,
+    97,
+    126,
+    156,
+    195,
+    205,
+    207,
+    241
+  ],
+  "note": "Positive bias contribution alone does not prove causation. The best nonblank class can vary frame by frame."
+}

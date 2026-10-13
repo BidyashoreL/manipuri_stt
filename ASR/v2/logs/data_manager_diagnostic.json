@@ -1,0 +1,372 @@
+{
+  "project_dir": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt",
+  "counts": {
+    "train": 10199,
+    "val": 1207,
+    "test": 601
+  },
+  "duration_distributions": {
+    "train": {
+      "0-3 sec": 2395,
+      "3-5 sec": 5765,
+      "5-8 sec": 1713,
+      "8-12 sec": 141,
+      "12-15 sec": 57,
+      ">15 sec": 128
+    },
+    "val": {
+      "0-3 sec": 274,
+      "3-5 sec": 688,
+      "5-8 sec": 209,
+      "8-12 sec": 14,
+      "12-15 sec": 7,
+      ">15 sec": 15
+    },
+    "test": {
+      "0-3 sec": 126,
+      "3-5 sec": 348,
+      "5-8 sec": 103,
+      "8-12 sec": 11,
+      "12-15 sec": 7,
+      ">15 sec": 6
+    }
+  },
+  "samples": {
+    "train": [
+      {
+        "index": 0,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_4054.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_4054.wav",
+        "text": "ꯃꯈꯣꯢꯅꯥꯝꯍꯨꯝꯁꯥꯔꯤꯕꯥ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 2.7100208333333335,
+        "estimated_projected_tokens": 68,
+        "duration_bucket": "0-3 sec"
+      },
+      {
+        "index": 1,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_58.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_58.wav",
+        "text": "ꯅꯅꯥꯢꯕꯨꯑꯃꯨꯛꯇꯗꯤꯀꯟꯕꯤꯌꯨꯒꯕꯥꯂꯥꯢꯅꯤꯡꯊꯧ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 4.83,
+        "estimated_projected_tokens": 121,
+        "duration_bucket": "3-5 sec"
+      },
+      {
+        "index": 2,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_10046.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_10046.wav",
+        "text": "ꯎꯅꯥꯑꯄꯥꯛꯄꯥꯑꯅꯤꯊꯥꯔꯒꯥ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 3.63,
+        "estimated_projected_tokens": 91,
+        "duration_bucket": "3-5 sec"
+      },
+      {
+        "index": 3,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_459.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_459.wav",
+        "text": "ꯃꯁꯥꯑꯗꯨꯈꯪꯋꯥꯡꯋꯥꯡꯈꯠꯄꯣꯢꯔꯦ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 3.51,
+        "estimated_projected_tokens": 88,
+        "duration_bucket": "3-5 sec"
+      },
+      {
+        "index": 4,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_5252.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_5252.wav",
+        "text": "ꯑꯗꯨꯗꯒꯤꯆꯥꯃꯤꯟꯊꯛꯃꯤꯟꯅꯕꯥꯂꯣꯢꯗꯨꯅꯥ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 3.59,
+        "estimated_projected_tokens": 90,
+        "duration_bucket": "3-5 sec"
+      },
+      {
+        "index": 5,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_3756.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_3756.wav",
+        "text": "ꯃꯃꯥꯇꯣꯟꯅꯥꯍꯥꯢꯁꯟꯔꯦꯝꯕꯤꯅꯪꯅꯥ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 4.48,
+        "estimated_projected_tokens": 112,
+        "duration_bucket": "3-5 sec"
+      },
+      {
+        "index": 6,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_10176.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_10176.wav",
+        "text": "ꯍꯧꯗꯣꯡꯁꯤꯡꯗꯨꯟꯁꯨ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 2.11,
+        "estimated_projected_tokens": 53,
+        "duration_bucket": "0-3 sec"
+      },
+      {
+        "index": 7,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_1k_project\\sample_298.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_1k_project\\sample_298.wav",
+        "text": "ꯑꯣ ꯍꯣꯏ ꯐꯔꯦ ꯑꯗꯣ ꯑꯥꯜꯂꯨꯁꯨ ꯑꯗꯒꯤ ꯀꯣꯕꯤꯁꯨ ꯂꯧꯒꯦꯅ ꯈꯜꯂꯦ ꯑꯗꯨ ꯑꯇꯣꯞꯄ ꯀꯔꯤ ꯀꯔꯤ ꯕꯦꯖꯤꯇꯦꯕꯜ ꯃꯈꯜꯗꯤ ꯌꯣꯜꯂꯤ ꯁꯣꯝꯒꯤ",
+        "source": "1k_project",
+        "orig_script": "meetei_mayek",
+        "duration_sec": 10.034,
+        "estimated_projected_tokens": 251,
+        "duration_bucket": "8-12 sec"
+      },
+      {
+        "index": 8,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_5589.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_5589.wav",
+        "text": "ꯀꯔꯤꯁꯨꯂꯩꯠꯕꯥꯂꯧꯃꯤꯆꯥꯎꯔꯦꯟꯅꯥꯂꯧꯕꯥꯁꯨꯛꯌꯥꯌꯥꯔꯣꯢ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 5.53,
+        "estimated_projected_tokens": 138,
+        "duration_bucket": "5-8 sec"
+      },
+      {
+        "index": 9,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_8420.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_8420.wav",
+        "text": "ꯊꯧꯔꯥꯡꯄꯨꯝꯅꯃꯛꯁꯤꯂꯣꯢꯔꯦꯈꯪꯂꯕꯗꯥꯂꯨꯈ꯭ꯔꯥꯕꯤꯝꯆꯥꯒꯤꯏꯃꯨꯡꯑꯗꯨ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 6.47,
+        "estimated_projected_tokens": 162,
+        "duration_bucket": "5-8 sec"
+      }
+    ],
+    "val": [
+      {
+        "index": 0,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_8262.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_8262.wav",
+        "text": "ꯅꯤꯡꯊꯧꯗꯨꯂꯩꯗꯨꯍꯦꯛꯎꯕꯗꯥꯝꯈꯩꯐꯪꯅꯥꯄꯦꯟꯈ꯭ꯔꯦ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 5.55,
+        "estimated_projected_tokens": 139,
+        "duration_bucket": "5-8 sec"
+      },
+      {
+        "index": 1,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_5645.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_5645.wav",
+        "text": "ꯆꯦꯡꯉꯧꯍꯜꯂꯨꯝꯆꯪꯒꯥꯇꯦꯛꯍꯟꯕꯥꯌꯥꯕꯥꯅꯠꯇꯦꯀꯣ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 6.6,
+        "estimated_projected_tokens": 165,
+        "duration_bucket": "5-8 sec"
+      },
+      {
+        "index": 2,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_974.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_974.wav",
+        "text": "ꯌꯨꯔꯛꯄꯗꯒꯤꯏꯐ꯭ꯔꯨꯐ꯭ꯔꯨꯊꯣꯛꯑꯦꯗꯣ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 4.76,
+        "estimated_projected_tokens": 119,
+        "duration_bucket": "3-5 sec"
+      },
+      {
+        "index": 3,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_4294.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_4294.wav",
+        "text": "ꯃꯩꯊꯥꯗꯣꯛꯈ꯭ꯔꯕꯗꯒꯤꯗꯤꯃꯃꯪꯗꯥꯎꯈꯤꯕꯥ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 5.09,
+        "estimated_projected_tokens": 127,
+        "duration_bucket": "5-8 sec"
+      },
+      {
+        "index": 4,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_1591.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_1591.wav",
+        "text": "ꯃꯆꯦꯀꯤꯕꯗꯒꯤꯍꯥꯢꯗꯔꯦ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 3.16,
+        "estimated_projected_tokens": 79,
+        "duration_bucket": "3-5 sec"
+      },
+      {
+        "index": 5,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_6544.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_6544.wav",
+        "text": "ꯈꯨꯟꯖꯥꯁꯤꯡꯉꯝꯈꯩꯂꯩꯠꯅꯥꯍꯔꯥꯎꯟꯈꯤ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 4.92,
+        "estimated_projected_tokens": 123,
+        "duration_bucket": "3-5 sec"
+      },
+      {
+        "index": 6,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_10769.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_10769.wav",
+        "text": "ꯀꯣꯠꯄꯗꯥꯄꯣꯛꯄꯗꯒꯤꯏꯔꯨꯖꯗ꯭ꯔꯤꯕꯥꯑꯉꯥꯡꯅꯤꯅꯥ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 4.79,
+        "estimated_projected_tokens": 120,
+        "duration_bucket": "3-5 sec"
+      },
+      {
+        "index": 7,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_10778.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_10778.wav",
+        "text": "ꯃꯤꯅꯥꯢꯃꯤꯁꯜꯒꯥꯂꯣꯢꯟꯅꯥ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 2.76,
+        "estimated_projected_tokens": 69,
+        "duration_bucket": "0-3 sec"
+      },
+      {
+        "index": 8,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_5654.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_5654.wav",
+        "text": "ꯂꯧꯁꯨꯕꯟꯆꯤꯡꯕꯥꯍꯩꯔꯗꯨꯅꯥ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 3.34,
+        "estimated_projected_tokens": 84,
+        "duration_bucket": "3-5 sec"
+      },
+      {
+        "index": 9,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_8697.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_8697.wav",
+        "text": "ꯁꯥꯒꯤꯁꯔꯨꯁꯌꯥꯡꯉꯥꯛꯇꯥꯇꯥꯗꯨꯅꯥꯂꯩꯕꯗꯨꯎꯔꯨꯕꯗꯥ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 5.03,
+        "estimated_projected_tokens": 126,
+        "duration_bucket": "5-8 sec"
+      }
+    ],
+    "test": [
+      {
+        "index": 0,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_9710.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_9710.wav",
+        "text": "ꯏꯁꯩꯍꯟꯕꯤꯗꯨꯅꯥꯈꯣꯟꯖꯦꯜꯋꯥꯡꯅꯥ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 4.539979166666667,
+        "estimated_projected_tokens": 113,
+        "duration_bucket": "3-5 sec"
+      },
+      {
+        "index": 1,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_9136.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_9136.wav",
+        "text": "ꯅꯨꯡꯁꯤꯠꯅꯥꯃꯩꯁꯨꯃꯨꯠꯈ꯭ꯔꯦ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 4.17,
+        "estimated_projected_tokens": 104,
+        "duration_bucket": "3-5 sec"
+      },
+      {
+        "index": 2,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_9595.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_9595.wav",
+        "text": "ꯀꯣꯢꯖꯗꯨꯅꯥꯌꯥꯝꯅꯥꯋꯥꯅꯥꯄꯥꯟꯖꯥꯔꯛꯄꯅꯤ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 4.79,
+        "estimated_projected_tokens": 120,
+        "duration_bucket": "3-5 sec"
+      },
+      {
+        "index": 3,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_9328.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_9328.wav",
+        "text": "ꯃꯇꯝꯂꯩꯕꯥꯈꯤꯕꯤꯛꯇꯥ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 2.31,
+        "estimated_projected_tokens": 58,
+        "duration_bucket": "0-3 sec"
+      },
+      {
+        "index": 4,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_3451.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_3451.wav",
+        "text": "ꯌꯦꯛꯅꯕꯁꯤꯡꯗꯒꯤꯏꯁꯥꯕꯨꯉꯥꯛꯊꯣꯛꯆꯕꯥꯉꯝꯃꯤ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 5.01,
+        "estimated_projected_tokens": 125,
+        "duration_bucket": "5-8 sec"
+      },
+      {
+        "index": 5,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_3093.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_3093.wav",
+        "text": "ꯄꯦꯕꯦꯠꯅꯥꯍꯥꯢ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 2.18,
+        "estimated_projected_tokens": 55,
+        "duration_bucket": "0-3 sec"
+      },
+      {
+        "index": 6,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_4538.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_4538.wav",
+        "text": "ꯃꯌꯨꯝꯊꯥꯗꯣꯛꯄꯥꯀꯨꯢꯔꯦꯍꯥꯢꯗꯨꯅꯥ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 3.85,
+        "estimated_projected_tokens": 96,
+        "duration_bucket": "3-5 sec"
+      },
+      {
+        "index": 7,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_1k_project\\sample_970.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_1k_project\\sample_970.wav",
+        "text": "ꯏꯀꯣꯅꯣꯃꯤꯛ ꯒ꯭ꯔꯣꯠꯇ ꯑꯗꯨꯛꯀꯤ ꯃꯇꯤꯛ ꯃꯇꯦꯡ ꯄꯥꯡꯉꯤ ꯃꯊꯪꯗ ꯃꯦꯅꯨꯐꯦꯛꯆꯔ ꯃꯦꯅꯨꯐꯦꯛꯆꯔꯤꯡ",
+        "source": "1k_project",
+        "orig_script": "meetei_mayek",
+        "duration_sec": 7.743,
+        "estimated_projected_tokens": 194,
+        "duration_bucket": "5-8 sec"
+      },
+      {
+        "index": 8,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_10678.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_10678.wav",
+        "text": "ꯈꯣꯢꯔꯦꯟꯈꯣꯢꯒꯤꯝꯍꯨꯝꯒꯤꯝꯃꯤ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 4.2,
+        "estimated_projected_tokens": 105,
+        "duration_bucket": "3-5 sec"
+      },
+      {
+        "index": 9,
+        "audio_path": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_6739.wav",
+        "original_audio_path": "C:\\Users\\Churchil Ningthoujam\\Downloads\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_benchmark_extracted\\benchmark_sample_6739.wav",
+        "text": "ꯑꯗꯨꯗꯒꯤꯑꯄꯪꯅꯥꯁꯥꯎꯔꯗꯨꯅꯥ",
+        "source": "extracted_bn",
+        "orig_script": "bengali",
+        "duration_sec": 3.36,
+        "estimated_projected_tokens": 84,
+        "duration_bucket": "3-5 sec"
+      }
+    ]
+  }
+}

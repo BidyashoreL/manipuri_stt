@@ -1,0 +1,266 @@
+{
+  "feature_rate": 50.0,
+  "projected_rate": 25.0,
+  "project_directory": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt",
+  "asr_directory": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR",
+  "total_rows": 12007,
+  "total_resolved_audio": 12007,
+  "total_missing_audio": 0,
+  "datasets": {
+    "train": {
+      "file": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\train.csv",
+      "columns": [
+        "audio_path",
+        "text",
+        "source",
+        "orig_script"
+      ],
+      "duration_column": null,
+      "audio_column": "audio_path",
+      "statistics": {
+        "rows": 10199,
+        "valid_duration_rows": 10199,
+        "missing_duration_rows": 0,
+        "min_seconds": 0.263,
+        "max_seconds": 28.882,
+        "mean_seconds": 4.17988080530771,
+        "median_seconds": 3.86,
+        "p50_seconds": 3.86,
+        "p75_seconds": 4.786645833333333,
+        "p90_seconds": 5.57,
+        "p95_seconds": 6.48,
+        "p99_seconds": 16.19392000000004
+      },
+      "buckets": {
+        "0-3 sec": {
+          "count": 2395,
+          "percentage": 23.482694381802137
+        },
+        "3-5 sec": {
+          "count": 5765,
+          "percentage": 56.52514952446318
+        },
+        "5-8 sec": {
+          "count": 1713,
+          "percentage": 16.795764290616727
+        },
+        "8-12 sec": {
+          "count": 141,
+          "percentage": 1.3824884792626728
+        },
+        "12-15 sec": {
+          "count": 57,
+          "percentage": 0.5588783214040592
+        },
+        ">15 sec": {
+          "count": 128,
+          "percentage": 1.2550250024512206
+        }
+      },
+      "estimated_projected_tokens": {
+        "estimated_min_tokens": 6.575,
+        "estimated_max_tokens": 722.0500000000001,
+        "estimated_mean_tokens": 104.49702013269275,
+        "estimated_p50_tokens": 96.5,
+        "estimated_p90_tokens": 139.25,
+        "estimated_p95_tokens": 162.0,
+        "estimated_p99_tokens": 404.84800000000104
+      },
+      "thresholds": {
+        ">5_sec": {
+          "count": 2021,
+          "percentage": 19.81566820276498
+        },
+        ">8_sec": {
+          "count": 326,
+          "percentage": 3.1963918031179523
+        },
+        ">10_sec": {
+          "count": 253,
+          "percentage": 2.480635356407491
+        },
+        ">12_sec": {
+          "count": 185,
+          "percentage": 1.8139033238552797
+        },
+        ">15_sec": {
+          "count": 128,
+          "percentage": 1.2550250024512206
+        }
+      },
+      "resolved_audio_count": 10199,
+      "missing_audio_count": 0,
+      "missing_audio_examples": []
+    },
+    "val": {
+      "file": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\val.csv",
+      "columns": [
+        "audio_path",
+        "text",
+        "source",
+        "orig_script"
+      ],
+      "duration_column": null,
+      "audio_column": "audio_path",
+      "statistics": {
+        "rows": 1207,
+        "valid_duration_rows": 1207,
+        "missing_duration_rows": 0,
+        "min_seconds": 0.352,
+        "max_seconds": 29.689,
+        "mean_seconds": 4.230096140568904,
+        "median_seconds": 4.01,
+        "p50_seconds": 4.01,
+        "p75_seconds": 4.825,
+        "p90_seconds": 5.49,
+        "p95_seconds": 6.240637500000003,
+        "p99_seconds": 16.264321250000005
+      },
+      "buckets": {
+        "0-3 sec": {
+          "count": 274,
+          "percentage": 22.700911350455673
+        },
+        "3-5 sec": {
+          "count": 688,
+          "percentage": 57.000828500414244
+        },
+        "5-8 sec": {
+          "count": 209,
+          "percentage": 17.315658657829328
+        },
+        "8-12 sec": {
+          "count": 14,
+          "percentage": 1.15990057995029
+        },
+        "12-15 sec": {
+          "count": 7,
+          "percentage": 0.579950289975145
+        },
+        ">15 sec": {
+          "count": 15,
+          "percentage": 1.2427506213753108
+        }
+      },
+      "estimated_projected_tokens": {
+        "estimated_min_tokens": 8.799999999999999,
+        "estimated_max_tokens": 742.225,
+        "estimated_mean_tokens": 105.75240351422259,
+        "estimated_p50_tokens": 100.25,
+        "estimated_p90_tokens": 137.25,
+        "estimated_p95_tokens": 156.01593750000006,
+        "estimated_p99_tokens": 406.60803125000007
+      },
+      "thresholds": {
+        ">5_sec": {
+          "count": 243,
+          "percentage": 20.132560066280032
+        },
+        ">8_sec": {
+          "count": 36,
+          "percentage": 2.9826014913007457
+        },
+        ">10_sec": {
+          "count": 27,
+          "percentage": 2.236951118475559
+        },
+        ">12_sec": {
+          "count": 22,
+          "percentage": 1.8227009113504555
+        },
+        ">15_sec": {
+          "count": 15,
+          "percentage": 1.2427506213753108
+        }
+      },
+      "resolved_audio_count": 1207,
+      "missing_audio_count": 0,
+      "missing_audio_examples": []
+    },
+    "test": {
+      "file": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\test.csv",
+      "columns": [
+        "audio_path",
+        "text",
+        "source",
+        "orig_script"
+      ],
+      "duration_column": null,
+      "audio_column": "audio_path",
+      "statistics": {
+        "rows": 601,
+        "valid_duration_rows": 601,
+        "missing_duration_rows": 0,
+        "min_seconds": 0.351,
+        "max_seconds": 26.318,
+        "mean_seconds": 4.283254263727121,
+        "median_seconds": 3.97,
+        "p50_seconds": 3.97,
+        "p75_seconds": 4.8,
+        "p90_seconds": 5.61,
+        "p95_seconds": 6.878,
+        "p99_seconds": 14.707
+      },
+      "buckets": {
+        "0-3 sec": {
+          "count": 126,
+          "percentage": 20.965058236272878
+        },
+        "3-5 sec": {
+          "count": 348,
+          "percentage": 57.90349417637272
+        },
+        "5-8 sec": {
+          "count": 103,
+          "percentage": 17.13810316139767
+        },
+        "8-12 sec": {
+          "count": 11,
+          "percentage": 1.8302828618968388
+        },
+        "12-15 sec": {
+          "count": 7,
+          "percentage": 1.1647254575707155
+        },
+        ">15 sec": {
+          "count": 6,
+          "percentage": 0.9983361064891847
+        }
+      },
+      "estimated_projected_tokens": {
+        "estimated_min_tokens": 8.774999999999999,
+        "estimated_max_tokens": 657.95,
+        "estimated_mean_tokens": 107.08135659317803,
+        "estimated_p50_tokens": 99.25,
+        "estimated_p90_tokens": 140.25,
+        "estimated_p95_tokens": 171.95,
+        "estimated_p99_tokens": 367.675
+      },
+      "thresholds": {
+        ">5_sec": {
+          "count": 126,
+          "percentage": 20.965058236272878
+        },
+        ">8_sec": {
+          "count": 24,
+          "percentage": 3.9933444259567388
+        },
+        ">10_sec": {
+          "count": 17,
+          "percentage": 2.828618968386023
+        },
+        ">12_sec": {
+          "count": 13,
+          "percentage": 2.1630615640599005
+        },
+        ">15_sec": {
+          "count": 6,
+          "percentage": 0.9983361064891847
+        }
+      },
+      "resolved_audio_count": 601,
+      "missing_audio_count": 0,
+      "missing_audio_examples": []
+    }
+  }
+}

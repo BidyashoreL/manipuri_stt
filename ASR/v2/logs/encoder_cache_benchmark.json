@@ -1,0 +1,224 @@
+{
+  "benchmark": {
+    "name": "V2 REAL Wav2Vec2-BERT Feature Cache Benchmark",
+    "version": "1.1"
+  },
+  "model": {
+    "model_name": "facebook/w2v-bert-2.0",
+    "encoder_class": "Wav2Vec2BertModel",
+    "feature_extractor_class": "AutoFeatureExtractor",
+    "dtype": "torch.bfloat16",
+    "expected_output_hidden_size": 1024
+  },
+  "device": {
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 2050",
+    "cuda_device_index": 0,
+    "torch_version": "2.14.0+cu126"
+  },
+  "audio": {
+    "target_sample_rate": 16000,
+    "resampler": "torchaudio.transforms.Resample"
+  },
+  "paths": {
+    "v2_directory": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\v2",
+    "cache_directory": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\v2\\cache\\features",
+    "output_file": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\v2\\logs\\encoder_cache_benchmark.json"
+  },
+  "dataset": {
+    "train_records": 10199,
+    "validation_records": 1207,
+    "test_records": 601,
+    "test_set_protected": true
+  },
+  "memory": {
+    "initial": {
+      "allocated_mb": 0.0,
+      "reserved_mb": 0.0,
+      "peak_allocated_mb": 0.0,
+      "peak_reserved_mb": 0.0,
+      "free_mb": 3303.4000005722046,
+      "total_mb": 4095.5
+    },
+    "after_encoder_load": {
+      "allocated_mb": 1107.2119140625,
+      "reserved_mb": 1124.0,
+      "peak_allocated_mb": 1107.2119140625,
+      "peak_reserved_mb": 1124.0,
+      "free_mb": 2179.4000005722046,
+      "total_mb": 4095.5
+    },
+    "final": {
+      "allocated_mb": 1115.3369140625,
+      "reserved_mb": 1124.0,
+      "peak_allocated_mb": 1359.423828125,
+      "peak_reserved_mb": 1378.0,
+      "free_mb": 2153.4000005722046,
+      "total_mb": 4095.5
+    }
+  },
+  "cache": {
+    "fingerprint": "ae2243975120c0e7c1ece6d11557de23788f0a4143fab3da2c5feeb5fab5292d",
+    "statistics": {
+      "ram_hits": 0,
+      "ram_misses": 0,
+      "disk_hits": 5,
+      "disk_misses": 0,
+      "encoder_computations": 0,
+      "writes": 5,
+      "invalid_entries": 0,
+      "evictions": 0,
+      "ram_items": 0,
+      "ram_capacity": 2,
+      "disk_items": 5
+    },
+    "disk_size_mb": 4.087746620178223
+  },
+  "results": [
+    {
+      "label": "LOW",
+      "record_index": 82,
+      "duration_sec": 2.5,
+      "actual_loaded_duration_sec": 2.5,
+      "estimated_projected_tokens": 62,
+      "feature_shape": [
+        1,
+        124,
+        1024
+      ],
+      "feature_elements": 126976,
+      "feature_dtype": "torch.bfloat16",
+      "feature_element_size_bytes": 2,
+      "feature_hidden_size": 1024,
+      "feature_actual_mb": 0.2421875,
+      "feature_fp16_mb": 0.2421875,
+      "feature_fp32_mb": 0.484375,
+      "encoder_time_sec": 0.6402600000146776,
+      "first_pass_total_sec": 0.7409448999969754,
+      "vram_before_allocated_mb": 1107.2119140625,
+      "vram_after_allocated_mb": 1115.61767578125,
+      "vram_peak_allocated_mb": 1121.46728515625,
+      "vram_peak_reserved_mb": 1130.0,
+      "vram_free_after_mb": 2147.4000005722046,
+      "disk_cache_delta_mb": 0.2448892593383789,
+      "disk_load_time_sec": 0.047108300001127645,
+      "cache_file": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\v2\\cache\\features\\d60160fd5e117ae78624c7256b536fc09a5f22715133b5f849660d905fe40379.pt"
+    },
+    {
+      "label": "NORMAL",
+      "record_index": 276,
+      "duration_sec": 4.2,
+      "actual_loaded_duration_sec": 4.2,
+      "estimated_projected_tokens": 105,
+      "feature_shape": [
+        1,
+        209,
+        1024
+      ],
+      "feature_elements": 214016,
+      "feature_dtype": "torch.bfloat16",
+      "feature_element_size_bytes": 2,
+      "feature_hidden_size": 1024,
+      "feature_actual_mb": 0.408203125,
+      "feature_fp16_mb": 0.408203125,
+      "feature_fp32_mb": 0.81640625,
+      "encoder_time_sec": 0.1183811999799218,
+      "first_pass_total_sec": 0.1858856999897398,
+      "vram_before_allocated_mb": 1115.3369140625,
+      "vram_after_allocated_mb": 1115.81005859375,
+      "vram_peak_allocated_mb": 1130.6611328125,
+      "vram_peak_reserved_mb": 1148.0,
+      "vram_free_after_mb": 2129.4000005722046,
+      "disk_cache_delta_mb": 0.4109077453613281,
+      "disk_load_time_sec": 0.024239800026407465,
+      "cache_file": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\v2\\cache\\features\\fdae55c1543b0f9f739f96eb4182f55db8ab292213b54a9f0d688a5d8fe8fef7.pt"
+    },
+    {
+      "label": "MEDIUM",
+      "record_index": 3813,
+      "duration_sec": 7.01,
+      "actual_loaded_duration_sec": 7.01,
+      "estimated_projected_tokens": 175,
+      "feature_shape": [
+        1,
+        350,
+        1024
+      ],
+      "feature_elements": 358400,
+      "feature_dtype": "torch.bfloat16",
+      "feature_element_size_bytes": 2,
+      "feature_hidden_size": 1024,
+      "feature_actual_mb": 0.68359375,
+      "feature_fp16_mb": 0.68359375,
+      "feature_fp32_mb": 1.3671875,
+      "encoder_time_sec": 0.12485439999727532,
+      "first_pass_total_sec": 0.16581850001239218,
+      "vram_before_allocated_mb": 1115.3369140625,
+      "vram_after_allocated_mb": 1116.12890625,
+      "vram_peak_allocated_mb": 1155.32421875,
+      "vram_peak_reserved_mb": 1170.0,
+      "vram_free_after_mb": 2107.4000005722046,
+      "disk_cache_delta_mb": 0.6863012313842773,
+      "disk_load_time_sec": 0.017102599987993017,
+      "cache_file": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\v2\\cache\\features\\aa98738f9a69a14c1f94a2f21102c4c33eacaad832d54cd3d6bb3911a503998a.pt"
+    },
+    {
+      "label": "HIGH",
+      "record_index": 7,
+      "duration_sec": 10.034,
+      "actual_loaded_duration_sec": 10.034,
+      "estimated_projected_tokens": 251,
+      "feature_shape": [
+        1,
+        501,
+        1024
+      ],
+      "feature_elements": 513024,
+      "feature_dtype": "torch.bfloat16",
+      "feature_element_size_bytes": 2,
+      "feature_hidden_size": 1024,
+      "feature_actual_mb": 0.978515625,
+      "feature_fp16_mb": 0.978515625,
+      "feature_fp32_mb": 1.95703125,
+      "encoder_time_sec": 0.13881920001585968,
+      "first_pass_total_sec": 0.27458100000512786,
+      "vram_before_allocated_mb": 1115.3369140625,
+      "vram_after_allocated_mb": 1116.470703125,
+      "vram_peak_allocated_mb": 1193.40478515625,
+      "vram_peak_reserved_mb": 1226.0,
+      "vram_free_after_mb": 2051.4000005722046,
+      "disk_cache_delta_mb": 0.9812202453613281,
+      "disk_load_time_sec": 0.04589860001578927,
+      "cache_file": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\v2\\cache\\features\\415d1f0205c47618e4818394158badf5a266fc316e824198cf337f793e444043.pt"
+    },
+    {
+      "label": "EXTREME",
+      "record_index": 6006,
+      "duration_sec": 18.046,
+      "actual_loaded_duration_sec": 18.046,
+      "estimated_projected_tokens": 451,
+      "feature_shape": [
+        1,
+        902,
+        1024
+      ],
+      "feature_elements": 923648,
+      "feature_dtype": "torch.bfloat16",
+      "feature_element_size_bytes": 2,
+      "feature_hidden_size": 1024,
+      "feature_actual_mb": 1.76171875,
+      "feature_fp16_mb": 1.76171875,
+      "feature_fp32_mb": 3.5234375,
+      "encoder_time_sec": 0.322096199990483,
+      "first_pass_total_sec": 0.4065501000150107,
+      "vram_before_allocated_mb": 1115.3369140625,
+      "vram_after_allocated_mb": 1117.7294921875,
+      "vram_peak_allocated_mb": 1359.423828125,
+      "vram_peak_reserved_mb": 1376.0,
+      "vram_free_after_mb": 1901.4000005722046,
+      "disk_cache_delta_mb": 1.7644281387329102,
+      "disk_load_time_sec": 0.04935839999234304,
+      "cache_file": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\v2\\cache\\features\\a7ee2fde92bd531ad836f51c492aaa02efcb50eddb7c8c0bbed08276a1c334b1.pt"
+    }
+  ]
+}

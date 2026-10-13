@@ -1,0 +1,21 @@
+{
+  "checkpoint": "E:\\manipuri_stt1\\manipuri_stt4\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\checkpoints\\v3_ctc\\b3_narrow\\best.pt",
+  "weight_key": "ctc_head.weight",
+  "bias_key": "ctc_head.bias",
+  "num_classes": 60,
+  "feature_dim": 1024,
+  "blank_token": "<blank>",
+  "blank_id": 0,
+  "blank_weight_norm": 0.8647465705871582,
+  "mean_nonblank_weight_norm": 1.3235876560211182,
+  "median_nonblank_weight_norm": 1.3214621543884277,
+  "std_nonblank_weight_norm": 0.17154599726200104,
+  "blank_weight_norm_ratio": 0.6533353243764015,
+  "blank_to_mean_nonblank_weight_distance": 1.181623935699463,
+  "cosine_similarity_blank_to_mean_nonblank": -0.7785681486129761,
+  "blank_bias": 0.08803174644708633,
+  "mean_nonblank_bias": -0.019923971965909004,
+  "median_nonblank_bias": -0.014074774459004402,
+  "std_nonblank_bias": 0.03065093234181404,
+  "blank_bias_gap": 0.10795571841299534
+}

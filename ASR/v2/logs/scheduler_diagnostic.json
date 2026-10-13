@@ -1,0 +1,451 @@
+{
+  "scheduler": {
+    "seed": 42,
+    "high_duration_sec": 8.0,
+    "extreme_duration_sec": 15.0,
+    "avoid_consecutive_high_risk": true,
+    "curriculum_fraction": 0.2,
+    "preview_size": 50
+  },
+  "epoch": 0,
+  "mode": "bucketed",
+  "summary": {
+    "total_records": 10199,
+    "original_bucket_counts": {
+      "0-3s": 2395,
+      "3-5s": 5765,
+      "8-12s": 141,
+      "5-8s": 1713,
+      ">15s": 128,
+      "12-15s": 57
+    },
+    "scheduled_bucket_counts": {
+      "3-5s": 5765,
+      "5-8s": 1713,
+      "0-3s": 2395,
+      ">15s": 128,
+      "8-12s": 141,
+      "12-15s": 57
+    },
+    "risk_counts": {
+      "NORMAL": 5765,
+      "MEDIUM": 1713,
+      "LOW": 2395,
+      "EXTREME": 128,
+      "HIGH": 141,
+      "VERY_HIGH": 57
+    },
+    "duration_sec": {
+      "min": 0.263,
+      "max": 28.882,
+      "mean": 4.179880805307712
+    },
+    "estimated_projected_audio_tokens": {
+      "min": 7,
+      "max": 722,
+      "mean": 104.49122462986567
+    },
+    "first_records": [
+      {
+        "index": 712,
+        "duration_sec": 3.48,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 87,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 8477,
+        "duration_sec": 3.14,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 78,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 169,
+        "duration_sec": 7.254,
+        "bucket": "5-8s",
+        "risk": "MEDIUM",
+        "estimated_projected_tokens": 181,
+        "source": "1k_project"
+      },
+      {
+        "index": 6969,
+        "duration_sec": 3.12,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 78,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 2503,
+        "duration_sec": 3.56,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 89,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 1936,
+        "duration_sec": 2.7,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 68,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 495,
+        "duration_sec": 2.35,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 59,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 576,
+        "duration_sec": 18.121,
+        "bucket": ">15s",
+        "risk": "EXTREME",
+        "estimated_projected_tokens": 453,
+        "source": "1k_project"
+      },
+      {
+        "index": 7570,
+        "duration_sec": 4.24,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 106,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 4855,
+        "duration_sec": 2.95,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 74,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 4297,
+        "duration_sec": 2.38,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 60,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 3915,
+        "duration_sec": 2.098,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 52,
+        "source": "1k_project"
+      },
+      {
+        "index": 9115,
+        "duration_sec": 3.35,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 84,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 2420,
+        "duration_sec": 2.64,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 66,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 8991,
+        "duration_sec": 4.92,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 123,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 5547,
+        "duration_sec": 4.44,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 111,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 1793,
+        "duration_sec": 2.71,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 68,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 9487,
+        "duration_sec": 2.13,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 53,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 1560,
+        "duration_sec": 2.81,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 70,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 7376,
+        "duration_sec": 2.66,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 66,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 3298,
+        "duration_sec": 5.85,
+        "bucket": "5-8s",
+        "risk": "MEDIUM",
+        "estimated_projected_tokens": 146,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 2152,
+        "duration_sec": 4.12,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 103,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 9851,
+        "duration_sec": 3.92,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 98,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 3524,
+        "duration_sec": 4.12,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 103,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 644,
+        "duration_sec": 1.27,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 32,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 607,
+        "duration_sec": 2.43,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 61,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 4074,
+        "duration_sec": 5.13,
+        "bucket": "5-8s",
+        "risk": "MEDIUM",
+        "estimated_projected_tokens": 128,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 4154,
+        "duration_sec": 5.18,
+        "bucket": "5-8s",
+        "risk": "MEDIUM",
+        "estimated_projected_tokens": 130,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 1635,
+        "duration_sec": 2.27,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 57,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 426,
+        "duration_sec": 3.61,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 90,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 8304,
+        "duration_sec": 3.08,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 77,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 10152,
+        "duration_sec": 4.96,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 124,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 3860,
+        "duration_sec": 0.952,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 24,
+        "source": "1k_project"
+      },
+      {
+        "index": 3607,
+        "duration_sec": 6.948,
+        "bucket": "5-8s",
+        "risk": "MEDIUM",
+        "estimated_projected_tokens": 174,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 1597,
+        "duration_sec": 4.74,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 118,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 2802,
+        "duration_sec": 4.32,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 108,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 5224,
+        "duration_sec": 5.12,
+        "bucket": "5-8s",
+        "risk": "MEDIUM",
+        "estimated_projected_tokens": 128,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 250,
+        "duration_sec": 4.01,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 100,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 6690,
+        "duration_sec": 5.21,
+        "bucket": "5-8s",
+        "risk": "MEDIUM",
+        "estimated_projected_tokens": 130,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 6580,
+        "duration_sec": 8.032,
+        "bucket": "8-12s",
+        "risk": "HIGH",
+        "estimated_projected_tokens": 201,
+        "source": "benchmark100"
+      },
+      {
+        "index": 1008,
+        "duration_sec": 5.37,
+        "bucket": "5-8s",
+        "risk": "MEDIUM",
+        "estimated_projected_tokens": 134,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 2538,
+        "duration_sec": 5.64,
+        "bucket": "5-8s",
+        "risk": "MEDIUM",
+        "estimated_projected_tokens": 141,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 8952,
+        "duration_sec": 5.52,
+        "bucket": "5-8s",
+        "risk": "MEDIUM",
+        "estimated_projected_tokens": 138,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 4080,
+        "duration_sec": 2.99,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 75,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 8769,
+        "duration_sec": 2.95,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 74,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 5213,
+        "duration_sec": 7.265,
+        "bucket": "5-8s",
+        "risk": "MEDIUM",
+        "estimated_projected_tokens": 182,
+        "source": "1k_project"
+      },
+      {
+        "index": 6387,
+        "duration_sec": 4.53,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 113,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 544,
+        "duration_sec": 2.88,
+        "bucket": "0-3s",
+        "risk": "LOW",
+        "estimated_projected_tokens": 72,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 4551,
+        "duration_sec": 4.43,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 111,
+        "source": "extracted_bn"
+      },
+      {
+        "index": 6089,
+        "duration_sec": 3.987,
+        "bucket": "3-5s",
+        "risk": "NORMAL",
+        "estimated_projected_tokens": 100,
+        "source": "extracted_bn"
+      }
+    ]
+  }
+}

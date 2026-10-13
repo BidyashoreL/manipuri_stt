@@ -1,0 +1,18 @@
+{
+  "validation_utterances": 864,
+  "model": "B3-NARROW Epoch 11",
+  "normalization": "NFC",
+  "alignment": "character-level Levenshtein",
+  "reference_characters": 81162,
+  "edit_errors": 13200,
+  "substitutions": 4795,
+  "deletions": 6044,
+  "insertions": 2361,
+  "micro_cer": 0.16263768758778738,
+  "tone_diacritic_flagged_errors": 6674,
+  "tone_diacritic_share_of_errors": 0.5056060606060606,
+  "b3_lower_cer_utterances": 580,
+  "b3_higher_cer_utterances": 160,
+  "equal_cer_utterances": 124,
+  "note": "Tone/diacritic analysis is a Unicode heuristic, not a validated Manipuri phonological tone classifier."
+}

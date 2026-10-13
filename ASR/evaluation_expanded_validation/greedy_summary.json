@@ -1,0 +1,13 @@
+{
+  "checkpoint": "E:\\manipuri_stt1\\manipuri_stt4\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\checkpoints\\v3_ctc\\b3_narrow\\best.pt",
+  "checkpoint_epoch": 11,
+  "manifest": "E:\\manipuri_stt1\\manipuri_stt4\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\xlit\\audio_audit\\final_candidate\\validation_16k.csv",
+  "num_clips": 1693,
+  "decoder": "greedy CTC",
+  "cer": 0.17874192090839439,
+  "wer": 0.6750756200846945,
+  "cer_percent": 17.87419209083944,
+  "wer_percent": 67.50756200846945,
+  "elapsed_minutes": 1.93028378089269,
+  "test_benchmark_used": false
+}

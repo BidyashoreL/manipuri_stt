@@ -1,0 +1,49 @@
+{
+  "configuration": {
+    "validation_csv": "E:\\manipuri_stt1\\manipuri_stt4\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\combined_dataset\\val.csv",
+    "validation_size": 864,
+    "b2_checkpoint": "E:\\manipuri_stt1\\manipuri_stt4\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\checkpoints\\v2_ctc\\b2_partial_encoder\\regularized\\FINAL_B2_MODEL.pt",
+    "b3_checkpoint": "E:\\manipuri_stt1\\manipuri_stt4\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\checkpoints\\v3_ctc\\b3_narrow\\best.pt",
+    "encoder_model": "E:\\hf_models\\w2v-bert-2.0",
+    "vocab_path": "E:\\manipuri_stt1\\manipuri_stt4\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\checkpoints\\v2_ctc\\b2_partial_encoder\\vocab.json",
+    "unigram_path": "E:\\manipuri_stt1\\manipuri_stt4\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\manipuri_asr_v2\\kenlm_experiment\\manipuri_unigrams.txt",
+    "beam_width": 500,
+    "normalization": "NFC + whitespace collapse",
+    "official_test_set_used": false
+  },
+  "results": {
+    "n_validation_utterances": 864,
+    "n_bootstrap": 10000,
+    "seed": 42,
+    "b2": {
+      "cer": 0.1898671792218033,
+      "wer": 0.7042587921056537,
+      "cer_percent": 18.98671792218033,
+      "wer_percent": 70.42587921056537
+    },
+    "b3": {
+      "cer": 0.16263768758778738,
+      "wer": 0.6085472622050749,
+      "cer_percent": 16.26376875877874,
+      "wer_percent": 60.854726220507494
+    },
+    "delta_b3_minus_b2": {
+      "cer": -0.027229491634015918,
+      "wer": -0.09571152990057874,
+      "cer_percentage_points": -2.7229491634015917,
+      "wer_percentage_points": -9.571152990057874
+    },
+    "bootstrap": {
+      "cer_95_ci_percentage_points": [
+        -2.9545550708615647,
+        -2.4938353001271856
+      ],
+      "wer_95_ci_percentage_points": [
+        -10.529469484419797,
+        -8.607235216612233
+      ],
+      "cer_p_value_empirical": 0.0,
+      "wer_p_value_empirical": 0.0
+    }
+  }
+}

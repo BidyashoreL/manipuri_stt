@@ -1,0 +1,177 @@
+{
+  "script": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\v2\\train_cached_preflight.py",
+  "project_root": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt",
+  "v2_dir": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\v2",
+  "cache_dir": "D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\v2\\cache\\features",
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "device": "cuda:0",
+  "compute_dtype": "torch.bfloat16",
+  "encoder_hidden": 1024,
+  "llm_hidden": 2048,
+  "projector_expected_params": 5250048,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "lora_target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "lora_modules_to_save": [
+    "embed_tokens",
+    "lm_head"
+  ],
+  "status": "FAIL",
+  "hardware": {
+    "cuda_available": true,
+    "device": "cuda:0",
+    "torch_version": "2.14.0+cu126",
+    "gpu_name": "NVIDIA GeForce RTX 2050",
+    "cuda_device": 0,
+    "compute_capability": "8.6",
+    "physical_vram_mb": 4095.5,
+    "free_vram_mb": 3303.4000005722046,
+    "physical_vram_gb": 3.99951171875,
+    "free_vram_gb": 3.2259765630587935
+  },
+  "dataset": {
+    "train": 10199,
+    "val": 1207,
+    "test": 601
+  },
+  "cache_validation": [
+    {
+      "split": "train",
+      "index": 0,
+      "encoder_frames": 135,
+      "projected_tokens": 68,
+      "dtype": "torch.float16"
+    },
+    {
+      "split": "train",
+      "index": 2549,
+      "encoder_frames": 182,
+      "projected_tokens": 91,
+      "dtype": "torch.float16"
+    },
+    {
+      "split": "train",
+      "index": 5099,
+      "encoder_frames": 122,
+      "projected_tokens": 61,
+      "dtype": "torch.float16"
+    },
+    {
+      "split": "train",
+      "index": 7649,
+      "encoder_frames": 141,
+      "projected_tokens": 71,
+      "dtype": "torch.float16"
+    },
+    {
+      "split": "train",
+      "index": 10198,
+      "encoder_frames": 156,
+      "projected_tokens": 78,
+      "dtype": "torch.float16"
+    },
+    {
+      "split": "val",
+      "index": 0,
+      "encoder_frames": 277,
+      "projected_tokens": 139,
+      "dtype": "torch.float16"
+    },
+    {
+      "split": "val",
+      "index": 301,
+      "encoder_frames": 222,
+      "projected_tokens": 111,
+      "dtype": "torch.float16"
+    },
+    {
+      "split": "val",
+      "index": 603,
+      "encoder_frames": 238,
+      "projected_tokens": 119,
+      "dtype": "torch.float16"
+    },
+    {
+      "split": "val",
+      "index": 905,
+      "encoder_frames": 166,
+      "projected_tokens": 83,
+      "dtype": "torch.float16"
+    },
+    {
+      "split": "val",
+      "index": 1206,
+      "encoder_frames": 218,
+      "projected_tokens": 109,
+      "dtype": "torch.float16"
+    }
+  ],
+  "projector": {
+    "total_params": 5250048,
+    "trainable_params": 5250048
+  },
+  "tokenizer": {
+    "vocab_size": 151709,
+    "pad_token_id": 151643,
+    "eos_token_id": 151645
+  },
+  "qlora": {
+    "trainable_params": 651333632,
+    "total_params": 2349541376,
+    "embedding_lm_head_trainable_params": 621400064,
+    "gradient_checkpointing": true,
+    "quantization": "4-bit NF4",
+    "double_quant": true,
+    "compute_dtype": "torch.bfloat16",
+    "modules_to_save": [
+      "embed_tokens",
+      "lm_head"
+    ]
+  },
+  "resident_memory": {
+    "allocated_mb": 3268.02490234375,
+    "reserved_mb": 3376.0,
+    "peak_mb": 3268.02490234375,
+    "free_mb": 0.0,
+    "total_mb": 4095.5
+  },
+  "stage1": {
+    "loss": 13.995564460754395,
+    "projector_grad_norm": 188.247519668774,
+    "qlora_grad_norm": 338.5253897296306,
+    "embedding_lm_head_grad_norm": 334.0537941724938,
+    "elapsed_sec": 11.016818200005218,
+    "token_info": {
+      "audio_tokens": 68,
+      "prompt_tokens": 18,
+      "target_tokens": 17,
+      "total_tokens": 103,
+      "projector_input_dtype": "torch.bfloat16",
+      "projector_dtype": "torch.bfloat16",
+      "audio_embedding_dtype": "torch.bfloat16",
+      "qwen_embedding_dtype": "torch.bfloat16",
+      "input_embedding_dtype": "torch.bfloat16"
+    },
+    "cuda_memory": {
+      "allocated_mb": 4623.9638671875,
+      "reserved_mb": 7992.0,
+      "peak_mb": 7883.3369140625,
+      "free_mb": 0.0,
+      "total_mb": 4095.5
+    }
+  },
+  "error": {
+    "type": "AcceleratorError",
+    "message": "CUDA error: out of memory\nSearch for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.\n",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\v2\\train_cached_preflight.py\", line 3731, in main\n    stage_two_overfit(\n  File \"D:\\boom\\manipuri_stt-20260816T162024Z-1-001 (2)\\manipuri_stt-20260816T162024Z-1-001\\manipuri_stt\\ASR\\v2\\train_cached_preflight.py\", line 3259, in stage_two_overfit\n    .item()\n     ^^^^^^\ntorch.AcceleratorError: CUDA error: out of memory\nSearch for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.\n\n"
+  }
+}

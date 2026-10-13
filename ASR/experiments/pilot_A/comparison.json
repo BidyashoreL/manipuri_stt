@@ -1,0 +1,14 @@
+{
+  "original": {
+    "model": "Original B3",
+    "loss": 1.9077,
+    "cer": 19.28,
+    "wer": 68.43
+  },
+  "pilot_A": {
+    "model": "Pilot A (Fine-Tuned)",
+    "loss": 0.6365,
+    "cer": 25.29,
+    "wer": 76.43
+  }
+}

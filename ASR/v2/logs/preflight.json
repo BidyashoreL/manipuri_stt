@@ -1,0 +1,50 @@
+{
+  "timestamp": 1789311114.5413349,
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "gpu": "NVIDIA GeForce RTX 2050",
+  "physical_vram_gb": 4.0,
+  "sequence_length": 128,
+  "batch_size": 1,
+  "idle": {
+    "free_mb": 3303.4000005722046,
+    "budget_mb": 2295.890000486374,
+    "allocated_mb": 0.0
+  },
+  "allocator": {
+    "peak_allocated_mb": 2.0,
+    "peak_reserved_mb": 20.0
+  },
+  "qwen": {
+    "load_time_sec": 3233.8059797000024,
+    "allocated_mb": 1964.82763671875,
+    "reserved_mb": 2150.0,
+    "peak_allocated_mb": 2050.5068359375,
+    "peak_reserved_mb": 2150.0,
+    "free_mb": 1143.4000005722046,
+    "budget_mb": 459.8900004863739
+  },
+  "lora": {
+    "allocated_mb": 2079.01513671875,
+    "reserved_mb": 2264.0,
+    "peak_allocated_mb": 2079.01513671875,
+    "peak_reserved_mb": 2264.0,
+    "free_mb": 1029.4000005722046,
+    "budget_mb": 362.9900004863739,
+    "trainable_parameters": 29933568,
+    "total_parameters": 1728606208,
+    "trainable_percent": 1.731659174973876
+  },
+  "training": {
+    "sequence_length": 128,
+    "batch_size": 1,
+    "loss": 14.061739921569824,
+    "elapsed_sec": 1.832079200015869,
+    "peak_allocated_mb": 2366.7705078125,
+    "peak_reserved_mb": 2616.0,
+    "free_mb": 653.4000005722046,
+    "budget_mb": 43.39000048637388,
+    "headroom_mb": 0.0,
+    "over_budget": true
+  },
+  "verdict": "STREAMING_OR_OFFLOAD_REQUIRED"
+}

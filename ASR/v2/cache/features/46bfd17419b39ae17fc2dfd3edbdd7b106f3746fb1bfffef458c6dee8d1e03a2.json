@@ -1,0 +1,26 @@
+{
+  "cache_version": "v1",
+  "key": "46bfd17419b39ae17fc2dfd3edbdd7b106f3746fb1bfffef458c6dee8d1e03a2",
+  "created_at": 1789343210.0213766,
+  "shape": [
+    1,
+    138,
+    1024
+  ],
+  "dtype": "torch.float16",
+  "dataset": "train",
+  "record_index": 7313,
+  "duration_sec": 2.7799791666666667,
+  "actual_loaded_duration_sec": 2.78,
+  "sample_rate": 16000,
+  "encoder_model": "facebook/w2v-bert-2.0",
+  "encoder_dtype": "torch.bfloat16",
+  "disk_dtype": "float16",
+  "feature_shape": [
+    1,
+    138,
+    1024
+  ],
+  "feature_hidden_size": 1024,
+  "precompute_version": "1.0"
+}

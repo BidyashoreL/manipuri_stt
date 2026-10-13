@@ -1,4 +1,4 @@
-﻿# Python
+# Python
 __pycache__/
 *.py[cod]
 *.pyo
@@ -83,4 +83,6 @@ manipuri_1k_project/
 manipuri_10k/
 
 # Local research workspace
-ASR/
+
+# Local research workspace
+# Keep source code version-controlled; ignore generated artifacts explicitly.
